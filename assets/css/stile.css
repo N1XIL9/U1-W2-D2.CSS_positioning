@@ -96,6 +96,12 @@ section h2 {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 1em;
+    position: relative;
+    background-color: rgb(86, 86, 86);
+    bottom: 25px;
+    width: 100px;
+    box-shadow: 3px 5px 3px 0.1px rgb(35, 35, 35);
+    color: white;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -232,15 +238,6 @@ aside div p:last-child {
     text-align: right;
 }
 
-section h2 {
-    position: relative;
-    background-color: rgb(86, 86, 86);
-    bottom: 25px;
-    width: 100px;
-    color: white;
-    box-shadow: 3px 5px 3px 0.1px rgb(35, 35, 35);
-
-}
 
 /* FOOTER */
 footer {
